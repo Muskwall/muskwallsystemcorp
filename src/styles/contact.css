@@ -1,0 +1,82 @@
+
+/* CSS para o formulário de contato */
+form {
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-section {
+    flex: 1;
+  }
+  
+  .contact-info {
+    flex: 1;
+  }
+  
+  .social-icons {
+    flex: 1;
+  }
+  
+  .social-icon {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: 30px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 10px;
+    color:#F0F8FF;
+  }
+  
+.logo1 {
+  max-width: 100px;
+  margin-left: -40px; /* Ajuste conforme necessário */
+ }
+
+ .social-icons .redes.sociais {
+    color: rgb(198, 215, 9); /* Define a cor do ícone como branco */
+  }
+
+  #contact-form input[type="file"] {
+    margin-bottom: 10px;
+}

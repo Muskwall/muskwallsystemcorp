@@ -1,0 +1,9 @@
+#video-background {
+    position: fixed;
+  
+    left: 0;
+    width: 100vw; /* Largura igual à largura da tela */
+    height: 90vh; /* Altura igual à altura da tela */
+    object-fit: cover; /* Redimensiona o vídeo para preencher completamente o contêiner */
+    z-index: -10;
+}

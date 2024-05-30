@@ -1,0 +1,66 @@
+
+
+
+
+.about-section {
+    background-color: #f8f8f8;
+    padding: 40px;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.about-section .mission-statement {
+    margin-bottom: 30px;
+}
+
+.about-section .services-list {
+    margin-bottom: 30px;
+}
+
+.about-section .services-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-section .services-list ul li {
+    margin-bottom: 10px;
+}
+
+.about-section .founder-info {
+    font-style: italic;
+    color: #888;
+}
+
+.about-section img {
+    max-width: 10%;
+    height: auto;
+    display:list-item;
+    margin: 0 auto 20px; /* Isso centraliza a imagem e adiciona um espaço abaixo dela */
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color:#040404;
+  }
+ 
+footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
